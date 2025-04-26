@@ -1,0 +1,65 @@
+header h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+main button{
+    border-radius: 20px;
+    width: 200px;
+    border-color: antiquewhite;
+    height: 40px;
+    color: blue;
+    font-size: 20px;
+}
+
+main h2{
+    font-size: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    width: 90%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+#campoTarefas li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#campoTarefas li.concluida {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-excluir {
+    background-color: red;
+    color: white;
+}
+
+.btn-concluir {
+    background-color: green;
+    color: white;
+}
+        
